@@ -33,6 +33,7 @@ step2:
 
 ; GDT
 gdt_start:
+; 2 x 32 bit null descriptors
 gdt_null:
     dd 0x0
     dd 0x0
